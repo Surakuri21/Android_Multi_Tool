@@ -11,15 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Caerlangs_calculator">
+
+        <!-- 1. The Dashboard is now the MAIN Launcher -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- 2. All your awesome tools are registered here! -->
+        <activity android:name=".CalculatorActivity" android:exported="false" />
+        <activity android:name=".CurrencyActivity" android:exported="false" />
+        <activity android:name=".PowerActivity" android:exported="false" />
+        <activity android:name=".TemperatureActivity" android:exported="false" />
+        <activity android:name=".NumberActivity" android:exported="false" />
+        <activity android:name=".MultiplicationActivity" android:exported="false" />
+
     </application>
 
 </manifest>
