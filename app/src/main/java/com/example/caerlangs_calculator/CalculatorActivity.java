@@ -20,7 +20,7 @@ public class CalculatorActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Updated to use your newly renamed XML layout file
-        setContentView(R.layout.activity_calculator);
+        setContentView(R.layout.activity_main);
 
         // 1. Header Navigation
         ImageButton btnBack = findViewById(R.id.btnBackToDashboard);
