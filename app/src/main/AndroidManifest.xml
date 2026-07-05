@@ -23,6 +23,7 @@
         </activity>
 
         <!-- ONLY THE 5 STABLE TOOLS ARE REGISTERED HERE -->
+        <activity android:name=".CalculatorActivity" android:exported="false" />
         <activity android:name=".CurrencyActivity" android:exported="false" />
         <activity android:name=".PowerActivity" android:exported="false" />
         <activity android:name=".TemperatureActivity" android:exported="false" />
