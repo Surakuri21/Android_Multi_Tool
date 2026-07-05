@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Caerlangs_calculator">
 
-        <!-- 1. The Dashboard is now the MAIN Launcher -->
+        <!-- DASHBOARD IS THE ONLY MAIN LAUNCHER -->
         <activity
-            android:name=".MainActivity"
+            android:name=".DashboardActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +22,7 @@
             </intent-filter>
         </activity>
 
-        <!-- 2. All your awesome tools are registered here! -->
-        <activity android:name=".CalculatorActivity" android:exported="false" />
+        <!-- ONLY THE 5 STABLE TOOLS ARE REGISTERED HERE -->
         <activity android:name=".CurrencyActivity" android:exported="false" />
         <activity android:name=".PowerActivity" android:exported="false" />
         <activity android:name=".TemperatureActivity" android:exported="false" />

@@ -26,10 +26,9 @@ public class DashboardActivity extends AppCompatActivity {
 
         // --- Set Click Listeners for all 6 tools! ---
 
+        // Temporarily disabled while we rebuild it in the new branch!
         cardCalculator.setOnClickListener(view -> {
-
-            Intent intent = new Intent(DashboardActivity.this, CalculatorActivity.class);
-            startActivity(intent);
+            Toast.makeText(DashboardActivity.this, "Calculator rebuild in progress!", Toast.LENGTH_SHORT).show();
         });
 
         cardCurrency.setOnClickListener(view -> {
