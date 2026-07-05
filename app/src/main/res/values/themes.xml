@@ -3,6 +3,16 @@
     <style name="Base.Theme.Caerlangs_calculator" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Match the top battery/time bar to our dark background -->
+        <item name="android:statusBarColor">#121212</item>
+
+        <!-- Ensure the battery/time icons stay white -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Make the bottom Android navigation swipe bar dark too -->
+        <item name="android:navigationBarColor">#121212</item>
+
     </style>
 
     <style name="Theme.Caerlangs_calculator" parent="Base.Theme.Caerlangs_calculator" />
