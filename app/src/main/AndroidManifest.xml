@@ -12,6 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Caerlangs_calculator">
 
+
+
+        <!-- SPLASH SCREEN IS NOW THE MAIN LAUNCHER -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
+
         <!-- DASHBOARD IS THE ONLY MAIN LAUNCHER -->
         <activity
             android:name=".DashboardActivity"
