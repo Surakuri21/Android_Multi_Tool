@@ -25,20 +25,15 @@
         </activity>
 
 
-
-
-
-
-
-        <!-- DASHBOARD IS THE ONLY MAIN LAUNCHER -->
+        <!-- DASHBOARD: Just a regular screen now -->
         <activity
             android:name=".DashboardActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
+
+
+
+
+
 
         <!-- ONLY THE 5 STABLE TOOLS ARE REGISTERED HERE -->
         <activity android:name=".CalculatorActivity" android:exported="false" />
